@@ -1,0 +1,256 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Noto Serif JP', serif;
+	font-family: 'Noto Serif KR', serif;
+	font-family: 'Reggae One', cursive;
+	font-family: 'Sunflower', sans-serif;
+	font-family: 'M PLUS 1', sans-serif;
+	color: #282727;
+	background-image: url(bg.png);
+	background-size: 100% 100%;
+}
+
+.content{
+	width: 1588px;
+	margin: auto;
+	overflow-x: hidden;
+}
+
+h1{
+ 	font-family: 'Reggae One', cursive;
+ 	font-size: 120px;
+ 	font-weight: 400;
+ 	line-height: 1.3;
+ 	padding: 72px 0px 150px 0px;
+ }
+
+ h2{
+ 	font-family: 'Sunflower', sans-serif;
+ 	font-size: 36px;
+ 	font-weight: 500;
+ 	margin-bottom: 15px;
+ 	cursor: pointer;
+}
+
+.title p{
+	font-family: 'M PLUS 1', sans-serif;
+	color: #282727;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: right;
+	letter-spacing: 0.05em;
+	opacity: 40%;
+	padding-top: 5px;
+}
+
+h3{
+	font-family: 'Sunflower', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: red;
+	padding-bottom: 60px;
+}
+
+.h3-2{
+	font-family: 'Sunflower', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h4{
+	font-family: 'Noto Serif KR', serif;
+	font-size: 28px;
+	letter-spacing: -0.01rem;
+	font-weight: 600;
+	line-height: 42px;
+	padding-bottom: 50px;
+}
+
+section{
+	padding-bottom: 40px;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.closed{height: 85px; transition: all 0.5s;}
+.turned{transform:rotateX(180deg);}
+
+section p{
+	font-family: 'Noto Serif KR', serif;
+	font-size: 18px;
+	line-height: 33.5px;
+	letter-spacing: -0.05rem;
+	font-weight: 300;
+	width: 496px;
+}
+
+.hd-wrap{
+	display: flex;
+  	justify-content: space-between;
+  	font-family: 'M PLUS 1', sans-serif;
+	font-size: 20px;	
+	font-weight: 300;
+	padding: 10px 90px;
+	opacity: 50%;
+}
+
+.title{
+	display: flex;
+	justify-content: space-between;
+}
+
+.grid-container{
+	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+ 	grid-gap: 70px;
+}
+
+.grid-container2{
+	display: grid;
+ 	grid-template-columns: repeat(2, 1fr);
+ 	grid-gap: 50px;
+}
+
+.grid-item-two{
+	display: flex;
+  	justify-content: flex-end;
+ 	align-items: left;	
+}
+
+.container-wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+.persona-pic{
+	display: flex;
+ 	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.grid-3th{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	grid-gap: 50px;
+}
+
+.grid-item-vertical{
+	display: flex;
+  	justify-content: flex-end;
+  	height: 900px;
+}
+
+.grid-item-vertical-fs{
+	display: flex;
+  	height: 900px;
+  	justify-content: space-around
+}
+
+.vertical1{
+	font-family: 'Reggae One', cursive;
+	font-size: 80px;
+	line-height: 2.1;
+	letter-spacing: 0.05em;
+	writing-mode: vertical-lr;
+}
+
+.vertical2{
+	font-family: 'Reggae One', cursive;
+	font-size: 60px;
+	line-height: 1.2;
+	letter-spacing: 0.3em;
+	writing-mode: vertical-lr;
+}
+
+.각주{
+	font-family: 'Sunflower', sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+}
+.vertical-flex{
+	display: flex;
+	align-items: center;
+}
+
+.grid-item .ms-t{
+	font-family: 'Sunflower', sans-serif;
+	font-weight: 500;
+	font-size: 28px;
+	letter-spacing: -1%;
+}
+
+.grid-item .ms-st{
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 300;
+	font-size: 20px;
+	opacity: .8;
+	line-height: 30px;
+	letter-spacing: -1%;
+}
+
+.grid-item .ms-p{
+	font-family: 'Noto Serif KR', serif;
+	font-size: 22px;
+	margin-top: 10px;
+	width: 700px;
+	letter-spacing: -1%;
+	margin-bottom: 70px;
+}
+
+.f{
+	font-family: 'Sunflower', sans-serif;
+	font-weight: 300;
+}
+
+#goToTopButton {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  color: #ff0000;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#goToTopButton:hover {
+  background-color: #ff5555;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer{
+	width: 100%;
+	height: 550px;
+	background: #282727;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.footer-text{
+	padding-top: 80px;
+}
+
+.footer p{
+	font-family: 'Sunflower', sans-serif;
+}
